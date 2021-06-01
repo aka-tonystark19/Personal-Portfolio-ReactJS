@@ -17,7 +17,7 @@ export default function Project(){
             .catch(console.err);
     },[]);
     return(
-        <main className="bg-green-100 min-h-screen p-12">
+        <main className="bg-blue-100 min-h-screen p-12">
             <section className="container-mx-auto"> 
                 <h1 className="text-5xl flex justify-center bold">PORTFOLIO</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my Projects page!</h2>
