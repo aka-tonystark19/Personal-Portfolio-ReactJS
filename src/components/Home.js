@@ -1,12 +1,12 @@
 import React from "react"
-import image from "../homeBG.jpg"
+import image from "../lightBlue-bg.jpg"
 
 export default function Home(){
     return (
         <main>
-            <img src={image} alt="Minimalistic Background" className="absolute object-cover w-full h-full"/>
+            <img src={image} alt="Minimalistic Background" className="absolute object-cover sm:w-full sm: h-full"/>
             <section className="relative flex justify-center min-h-screen pt-12 lg: pt-64 px-8 ">
-                <h1 className="text-6xl text-red-400 font-fold  leading-none lg:leading-snug home-name ">Hello. This is Aditya. </h1>
+                <h1 className="text-3xl bold text-gray-800 font-bold leading-none lg:leading-snug home-name animate-pulse  ">HELLO. THIS IS ADITYA. </h1>
             </section>
         </main>
     )
