@@ -33,11 +33,7 @@ export default function About(){
                     className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
                     />
                     <div className="text-lg flex flex-col justify-center">
-<<<<<<< HEAD
                         <h1 className="cursive text-6xl text-yellow-600 mb-4">
-=======
-                        <h1 className=" text-6xl text-yellow-600 mb-4">
->>>>>>> 6f8847b71ef4f7f50290d01dd744baecf522bb54
                             Hey there. I am {" "}
                             <span className="text-green-100">{author.name}</span>
                         </h1>

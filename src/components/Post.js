@@ -23,11 +23,7 @@ export default function Post() {
        
     }, []);
     return (
-<<<<<<< HEAD
         <main className="bg-blue-100 min-h-screen p-12 sm:w-full h-full">
-=======
-        <main className="bg-blue-100 min-h-screen p-12">
->>>>>>> 6f8847b71ef4f7f50290d01dd744baecf522bb54
             <section className="container mx-auto">
                 <h1 className="text-5xl flex justify-center ">Blog Post Page</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my page of blog posts!</h2>
